@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav-logo">ANKIT</a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">Hi, <br>I'm <span class="home-title-color">Ankit Baingane</span><br> Backend Developer</h1>
+                <div class="section__text">
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="window.open('./img/Ankit_resume2.pdf')">Download CV</button>
+                        <button class="btn btn-color-1" onclick="location.href='#contact'">
+                            Contact⬇️
+                        </button>
+                    </div>
+                    <div id="socials-container">
+                        <img class="logo_img"
+                            src="./img/linkedin.png"
+                            alt="My LinkedIn profile"
+                            class="icon"
+                            onclick="location.href='https://www.linkedin.com/in/ankit-baingane-36436b229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"/>
+                        <img class="logo_img"
+                            src="./img/github.png"
+                            alt="My Github profile"
+                            class="icon"
+                            onclick="location.href='https://github.com/Ankit0304'"/>
+                        <a href="mailto:ankitbaingane157@gmail.com" target="_blank">
+                            <img class="logo_img" src="./img/gmail.webp" alt="Email Ankit"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <img class="about-img" src="./img/Ankit Pic.png" alt="image">
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-container bd-grid">
+                <div class="about-img">
+                    <img src="./img/Ankit Pic.png" alt="image">
+                </div>
+
+                <div>
+                    <h2 class="about-subtitle">I'm Ankit Baingane</h2>
+                    <p class="about-text">
+                        a passionate Backend and Python Developer currently in my final year of pursuing a Bachelor's degree in Computer Science and Information Technology. I focus on writing clear, maintainable code to solve real problems. I’m interested in learning new technologies and using them in practical projects.<br>
+                        With experience in both Frontend Development and Python, I love building projects that blend functionality with creativity. I'm a quick learner, a curious problem-solver, and a collaborative team player who's always ready to dive into new challenges and technologies.<br>
+                        I'm actively looking for opportunities where I can grow, contribute, and make an impact as a developer. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container bd-grid">
+                <div>
+                    <h2 class="skills-subtitle">Professional Skills</h2>
+                    <p class="skills-text">I have proficiency in Python, Django, HTML, and CSS, that ensure that my designs are not only beautiful but also functional. </p>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-python skills-icon' ></i>
+                            <span class="skills-name">Python</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">90%</span>
+                        </div>
+
+                        <div class="skills-bar skills-python"></div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-django skills-icon' ></i>
+                            <span class="skills-name">Django</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+
+                        <div class="skills-bar skills-django"></div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-html5 skills-icon' ></i>
+                            <span class="skills-name">HTML5</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+
+                        <div class="skills-bar skills-html"></div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-css3 skills-icon' ></i>
+                            <span class="skills-name">CSS3</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+
+                        <div class="skills-bar skills-css"></div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bx-server skills-icon' ></i>
+                            <span class="skills-name">MySQL</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">75%</span>
+                        </div>
+
+                        <div class="skills-bar skills-mysql"></div>
+                    </div>
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-github skills-icon' ></i>
+                            <span class="skills-name">Git & Github</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">80%</span>
+                        </div>
+
+                        <div class="skills-bar skills-git"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://i.postimg.cc/52LWbPyt/work3.jpg" alt="image" class="skills-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work-container bd-grid">
+                <div class="work-img">
+                    <img src="./img/project1.jpg" alt="image" width="250px" height="250px">
+                   <div class="work-overlay">
+                        <!-- <p class="work-description">Short description about the project.</p> -->
+                        <a href="https://github.com/Ankit0304/AcroCare-Mental-Health-AI-ChatBot.git" target="_blank" class="work-button">View</a>
+                    </div> 
+                    <h3 class="work-title">AcroCare-Mental Health Chatbot</h3>
+                </div>
+                <div class="work-img">
+                    <img src="./img/project2.png" alt="image" width="250px" height="250px">
+                   <div class="work-overlay">
+                        <!-- <p class="work-description">Short description about the project.</p> -->
+                        <a href="https://github.com/Ankit0304/Personal-Finance-Tracker.git" target="_blank" class="work-button">View</a>
+                    </div> 
+                    <h3 class="work-title">Personal Finance Tracker</h3>
+                </div>
+                <div class="work-img">
+                    <img src="./img/students_Pp.jpeg" alt="image" width="250px" height="250px">
+                   <div class="work-overlay">
+                        <!-- <p class="work-description">Short description about the project.</p> -->
+                        <a href="https://github.com/Ankit0304/AcroCare-Mental-Health-AI-ChatBot.git" target="_blank" class="work-button">View</a>
+                    </div> 
+                    <h3 class="work-title">Student Study Portal</h3>
+                </div>
+            
+            </div>
+            
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img
+                        src="./img/gmail.webp"
+                        alt="Email icon"
+                        class="icon contact-icon email-icon"
+                    />
+                    <p><a href="mailto:ankitbaingane157@gmail.com">ankitbaingane157@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img
+                        src="./img/linkedin.png"
+                        alt="LinkedIn icon"
+                        class="icon contact-icon"
+                    />
+                    <p><a href="https://www.linkedin.com/in/ankit-baingane-36436b229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+                </div>
+            </div>
+            <div class="footer-social" style="text-align: center;">
+                <a href="#" class="footer-icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer-icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- <p class="footer-title">ANKIT</p> -->
+        <p>&#169; 2025 Copyright all rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
